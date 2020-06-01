@@ -16,7 +16,7 @@ class CreateMenuItemsTable extends Migration
         Schema::create(config('pagebuilder.storage.database.prefix') . 'menu_item', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name', 512)->unique();
-            $table->unsignedBigInteger('parent_id')->nullable();
+            $table->unsignedInteger('parent_id')->nullable();
             $table->foreign('parent_id')->references('id')->on(config('pagebuilder.storage.database.prefix') .'menus');
             $table->string('position')->nullable()->unique();
             $table->string('url')->nullable();

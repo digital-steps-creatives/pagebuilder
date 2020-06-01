@@ -1,0 +1,17 @@
+{
+    "name": "dscreatives/pagebuilder",
+    "description": "drag and drop page builder",
+    "type": "project",
+    "require": {
+        "hansschouten/phpagebuilder": "dev-master",
+        "php": "^7.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fredrick Boaz",
+            "email": "fredrickboaz@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

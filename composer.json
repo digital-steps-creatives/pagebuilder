@@ -13,5 +13,20 @@
             "email": "development@dsc.co.ke"
         }
     ],
-    "minimum-stability": "dev"
+    "autoload": {
+        "psr-4": {
+            "Dsc\\LaravelPageBuilder\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dsc\\LaravelPageBuilder\\ServiceProvider"
+            ],
+            "aliases": {
+                "PageBuilder": "Dsc\\LaravelPageBuilder\\Facade"
+            }
+        }
+    }
 }

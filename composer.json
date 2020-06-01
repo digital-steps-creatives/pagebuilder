@@ -4,7 +4,7 @@
     "keywords": ["Laravel Page builder"],
     "require": {
         "php": ">=7",
-        "hansschouten/phpagebuilder": "dev-master"
+        "hansschouten/phpagebuilder": "^0.11"
     },
     "license": "MIT",
     "authors": [

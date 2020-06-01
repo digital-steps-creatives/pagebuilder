@@ -1,10 +1,14 @@
 {
     "name": "dscreatives/pagebuilder",
     "description": "drag and drop page builder",
-    "type": "project",
+    "keywords": ["Laravel Page builder"],
     "require": {
-        "hansschouten/phpagebuilder": "dev-master",
-        "php": "^7.4"
+        "php": ">=7",
+        "illuminate/support": "^5.5|^6.0|^7.0|^8.0"
+    },
+    "require-dev": {
+        "laravel/framework": "^5.5|^6.0|^7.0|^8.0",
+        "hansschouten/phpagebuilder": "dev-master"
     },
     "license": "MIT",
     "authors": [
